@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mikhailkollen.github.io/React-Grocery-List-Project/",
   "name": "reminder",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "gh-pages -d build",
     "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
